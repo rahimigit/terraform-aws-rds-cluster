@@ -1,7 +1,7 @@
 name: Auto Format
 on:
-  pull_request_target:
-    types: [opened, synchronize]
+  # automatic triggers removed 2026-10-30 to stop burning hosted-runner minutes; run manually
+  workflow_dispatch:
 
 jobs:
   auto-format:

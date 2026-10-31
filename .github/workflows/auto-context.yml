@@ -1,8 +1,7 @@
 name: "auto-context"
 on:
-  schedule:
-  # Update context.tf nightly
-  - cron:  '0 3 * * *'
+  # automatic triggers removed 2026-10-30 to stop burning hosted-runner minutes; run manually
+  workflow_dispatch:
 
 jobs:
   update:

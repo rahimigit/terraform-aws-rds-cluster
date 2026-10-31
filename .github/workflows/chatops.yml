@@ -1,7 +1,7 @@
 name: chatops
 on:
-  issue_comment:
-    types: [created]
+  # automatic triggers removed 2026-10-30 to stop burning hosted-runner minutes; run manually
+  workflow_dispatch:
 
 jobs:
   default:
